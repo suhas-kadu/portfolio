@@ -88,9 +88,12 @@ hr {
 }
 
 .reversed-order-list
-{   
+{ 
+  display:flex;
+  flex-direction: column-reverse;  
   margin-left: -1rem;
   margin-right: 1.5rem;
+  
 
 }
 .navigation {
@@ -98,6 +101,7 @@ hr {
     border-bottom-left-radius:1rem;
     border-bottom-right-radius:1rem; 
     padding: 0.5rem;
+    min-width: 600px;
 }
 
 .navigation .link {
