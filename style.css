@@ -42,6 +42,7 @@ body {
   padding: 0.5rem;
   font-size: large;
 font-weight: lighter;
+color: var(--primary-color);
 }
 
 
@@ -63,12 +64,12 @@ font-weight: lighter;
 }
 
 .link .link-primary,
-a:hover {
+a.link-primary:hover {
   background-color: #fff;
 }
 
 .link .link-secondary,
-a:hover {
+a.link-secondary:hover {
   background-color: var(--primary-color);
   color: #fff;
 }
@@ -197,45 +198,44 @@ hr {
 a {
   text-align: right;
   font-size: 30px;
-  /* color: #fff; */
 }
 
 .blog-subtitle {
   color: var(--dark-gray-color);
   font-size: 0.8rem;
-  /* padding:1px; */
-  /* text-align: center; */
-  /* margin:-5px; */
+}
+
+.section .blog-subtitle {
+  text-align: center;
 }
 
 .social-media-list {
   text-align: center;
-  /* margin: 0; */
   padding: 0;
-    color: #000;
-    background-color: transparent;
+  color: #000;
+  background-color: transparent;
 }
 
-.social-media-list .list-item-inline .social-media-link,i{
-    color: darkblue;
-    padding: 0.5rem;
-    background-color: white;
-    border-radius: 1rem;
+/* .social-media-list { */
+  /* color: var(--primary-color); */
+  /* padding: 0.5rem; */
+  /* background-color: white; */
+  /* border-radius: 1rem;  */
+/* } */
 
+.list-item-inline .social-media-link, 
+a.social-media-link:link, i{
+  background-color: white;
+  padding: 0.3rem 0.5rem;
+  color: var(--primary-color);
 }
 
-
-/* .social-media-link, a:link {
-    background-color: transparent;
-} */
-/* 
-#social-media-link, a:hover {
-    padding: 0.5rem;
-    background-color: white;
-    shape-outside: circle();
-    border-radius: 1rem;
-} */
-
+.social-media-link, 
+a.social-media-link:hover  {
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: white;
+}
 
 .author-section {
   text-align: center;
