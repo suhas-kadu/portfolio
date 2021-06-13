@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 :root {
-  --primary-color: #3d16ec;
+  --primary-color: #1106EC;
   --dark-gray-color: #696969;
   --off-white-color: #e0ffff;
 }
@@ -15,9 +15,12 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  /* padding: 0; */
   /* min-width: 405px; */
   /* width: auto; */
   /* min-width: 40%; */
+  /* padding-bottom: 0 !important;
+  margin-bottom: -40px !important; */
 }
 
 @media(max-width: 500px) {
@@ -84,7 +87,8 @@ a.link-primary:hover {
 a.link-secondary:hover {
   background-color: var(--primary-color);
   color: #fff;
-  transition-delay: 0.15s;
+  transition-delay: 0.1s;
+  transition: ease-in;
 }
 
 hr {
@@ -196,27 +200,18 @@ hr {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 0.05rem;
-  /* margin-top: 1.2rem;
-    padding-top: 1rem;
-    padding-left: 0.5rem;
-    padding-bottom: 0.1rem;;
-    border-top-right-radius:1rem; */
+  border-top-right-radius:1rem;
   border-top-left-radius: 1rem;
-  color: #fff;
+  padding-bottom: 1rem;
 }
 
 .footer-header {
   color: #fff;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding-left: 0.5rem;
-}
-
-.footer-list,
-a {
-  text-align: right;
-  font-size: 30px;
+  text-align: center;
+  /* margin: 1rem; */
+  padding-top: 1rem;
+  display: block;
+  font-size: x-large;
 }
 
 .blog-subtitle {
@@ -228,37 +223,29 @@ a {
   text-align: center;
 }
 
-.social-media-list {
-  flex: 1;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  color: #000;
-  background-color: transparent;
+.flex-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 0.4rem;
 }
 
-/* .social-media-list { */
-  /* color: var(--primary-color); */
-  /* padding: 0.5rem; */
-  /* background-color: white; */
-  /* border-radius: 1rem;  */
-/* } */
-
-.list-item-inline .social-media-link, 
+.social-media-link,
 a.social-media-link:link, i{
-  background-color: white;
+  background-color: var(--primary-color);
+  color: #fff;
   padding: 0.3rem 0.5rem;
-  /* margin-top: 3rem; */
-  margin: 0;
-  color: var(--primary-color);
+  font-size: 1.6rem;
+  margin: 0 0.5rem
 }
 
-.social-media-link, 
 a.social-media-link:hover  {
+  background-color: #fff;
+  color: var(--primary-color);
   border-radius: 0.5rem;
-  background-color: var(--primary-color);
-  color: white;
-  transition-delay: 0.15s;
+  transition-delay: 0.1s;
+  transition: ease-in;
+  margin: 0 0.5rem
 }
 
 .author-section {
