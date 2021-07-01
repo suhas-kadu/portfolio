@@ -1,8 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;1,700&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;0,800;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
 
 :root {
   --primary-color: #1106EC;
@@ -15,18 +14,13 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  /* padding: 0; */
-  /* min-width: 405px; */
-  /* width: auto; */
-  /* min-width: 40%; */
-  /* padding-bottom: 0 !important;
-  margin-bottom: -40px !important; */
+
 }
 
 @media(max-width: 500px) {
   .nav-pills {
     font-size: xx-small;
-  text-align: center;
+  /* text-align: left; */
   /* display: inline-flexbox; */
   margin: 1rem 0;
   padding: 2rem 0;
@@ -87,8 +81,8 @@ a.link-primary:hover {
 a.link-secondary:hover {
   background-color: var(--primary-color);
   color: #fff;
-  transition-delay: 0.1s;
-  transition: ease-in;
+  /* transition-delay: 0.1s; */
+  transition:350ms all ease-in;
 }
 
 hr {
@@ -145,8 +139,7 @@ hr {
 }
 
 .link-active {
-  font-weight: 900;
-
+  font-weight: 700;
 }
 
 .hero {
@@ -169,8 +162,10 @@ hr {
 }
 
 .section {
+  height:100%;
   padding: 1rem 0.5rem;
   margin: 1rem 0;
+  
   text-align: center;
 }
 
@@ -243,8 +238,8 @@ a.social-media-link:hover  {
   background-color: #fff;
   color: var(--primary-color);
   border-radius: 0.5rem;
-  transition-delay: 0.1s;
-  transition: ease-in;
+  /* transition-delay: 0.8s; */
+  transition:250ms all ease-in;
   margin: 0 0.5rem
 }
 
@@ -263,4 +258,8 @@ a.social-media-link:hover  {
   margin: 1rem 1.8rem;
   padding: 1rem 2rem;
   font-size: 1.2rem;
+}
+
+.project-btns {
+  margin-bottom: 2.5rem;
 }
