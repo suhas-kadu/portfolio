@@ -14,7 +14,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-
+  
 }
 
 @media(max-width: 500px) {
@@ -170,7 +170,7 @@ hr {
 }
 
 .section p {
-  text-align: justify;
+  text-align: center;
 }
 
 .section h1 {
