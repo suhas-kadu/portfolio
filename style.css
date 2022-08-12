@@ -134,9 +134,9 @@ a.link-secondary:hover {
   padding-bottom: 1rem;
 }
 
-/* .link-active {
+.link-active {
   font-weight: 700;
-} */
+}
 
 .hero {
   padding-top: 3rem;
