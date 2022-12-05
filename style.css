@@ -26,13 +26,13 @@ body {
   padding: 0 16rem;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .nav-pills {
     font-size: xx-small;
     margin: 1rem 0;
     padding: 2rem 0;
   }
-}
+} */
 
 .header {
   color: var(--primary-color);
@@ -109,10 +109,13 @@ a.link-secondary:hover {
 } */
 
 /* navbar */
+
+
 .navigation {
   background-color: var(--primary-color);
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
+  /* margin-bottom: 2.5rem; */
 }
 
 .navigation .link {
@@ -125,6 +128,11 @@ a.link-secondary:hover {
   color: white;
   padding: 2rem 0 0 1rem;
   text-align: left;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav-pills {
