@@ -245,6 +245,24 @@ a.social-media-link:hover {
 }
 
 /* media queries */
+/* 
+@media (max-width: 340) {
+  .nav-pills {
+    font-size: xx-small;
+    margin: 1rem 0;
+    padding: 2rem 0;
+  }
+
+  .main {
+    padding: 0rem;
+    text-align: center;
+  }
+  .project-btns {
+    display: flex; 
+    flex-direction: column;
+  }
+} 
+*/
 
 @media screen and (max-width: 500px) {
   .nav-pills {
@@ -254,7 +272,7 @@ a.social-media-link:hover {
   }
 
   .main {
-    padding: 2rem;
+    padding: 0rem;
     text-align: center;
   }
 }
