@@ -244,6 +244,11 @@ a.social-media-link:hover {
   margin-bottom: 1rem;
 }
 
+.small-tag {
+  font-weight: bold;
+  color: rgba(99, 95, 94, 0.847);
+}
+
 /* media queries */
 /* 
 @media (max-width: 340) {
@@ -269,6 +274,10 @@ a.social-media-link:hover {
     font-size: xx-small;
     margin: 1rem 0;
     padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
   }
 
   .main {
