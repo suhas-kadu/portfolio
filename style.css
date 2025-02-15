@@ -104,16 +104,6 @@ body {
   font-size: x-large;
 }
 
-.blog-subtitle {
-  color: var(--dark-gray-color);
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
-}
-
-.section .blog-subtitle {
-  text-align: center;
-}
-
 .flex-social-media {
   display: flex;
   justify-content: center;
@@ -151,20 +141,14 @@ a.social-media-link:hover {
   border-radius: 2rem;
 }
 
-.blog-section {
-  margin: 1rem 1.8rem;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-}
-
-.blog-content {
-  padding: 0 2rem;
-  margin-bottom: 1rem;
-}
-
 .small-tag {
   font-weight: bold;
   color: rgba(99, 95, 94, 0.847);
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 @media screen and (max-width: 500px) {
